@@ -1,3 +1,15 @@
+# セットアップ
+```bash
+# Dockerを起動
+$ docker compose build
+$ docker compose up -d
+$ cp .env.local .env # 環境変数をセット
+$ php artisan migrate # DBをセットアップ
+# node_modulesをインストール
+$ npm run build
+$ npm run dev
+```
+
 # このリポジトリの作成方法
 laravel/breezeを使います。
 まず、laravelプロジェクトを作成
