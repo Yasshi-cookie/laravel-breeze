@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "blade.format.enable": true,
+    "prettier.quoteProps": "preserve",
+    "prettier.singleQuote": true
+}
