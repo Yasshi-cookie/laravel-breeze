@@ -11,7 +11,8 @@ $ npm run dev
 ```
 
 # このリポジトリの作成方法
-laravel/breezeを使います。
+laravel/breezeを使います。（参考：https://laravel.com/docs/10.x/starter-kit）
+
 まず、laravelプロジェクトを作成
 ```bash
 $ composer create-project laravel/laravel your-project-name
@@ -26,8 +27,10 @@ $ composer require laravel/breeze --dev
 $ php artisan breeze:install
 ```
 
-
-参考：https://laravel.com/docs/10.x/starter-kits
+コードフォーマッターをインストール（オプション）
+- Prettier（see https://prettier.io/docs/en/install）
+- prettier-plugin-tailwindcss（see https://github.com/tailwindlabs/prettier-plugin-tailwindcss）
+- prettier-plugin-blade（see https://www.npmjs.com/package/prettier-plugin-blade）
 
 ## Tips
 - TailwindCSS関連
