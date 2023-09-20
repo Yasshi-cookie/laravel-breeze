@@ -11,7 +11,7 @@ $ npm run dev
 ```
 
 # このリポジトリの作成方法
-laravel/breezeを使います。（参考：https://laravel.com/docs/10.x/starter-kit）
+laravel/breezeを使います。（参考：https://laravel.com/docs/10.x/starter-kits ）
 
 まず、laravelプロジェクトを作成
 ```bash
