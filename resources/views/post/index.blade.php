@@ -9,7 +9,7 @@
         class="container mt-16 flex flex-col items-center gap-6 px-8 md:px-14 lg:px-24"
     >
         <h2 class="title-with-overline lg:self-start">投稿一覧</h2>
-        <div>
+        <div class="flex flex-col gap-8">
             @foreach ($posts as $post)
                 <div
                     class="post-card flex flex-col items-start gap-3 rounded border border-gray-100 bg-white p-4"
