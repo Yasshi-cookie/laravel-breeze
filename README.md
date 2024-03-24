@@ -15,7 +15,7 @@ laravel/breezeを使います。（参考：https://laravel.com/docs/10.x/starte
 
 まず、laravelプロジェクトを作成
 ```bash
-$ composer create-project laravel/laravel your-project-name
+$ composer create-project laravel/laravel=10.* your-project-name
 ```
 
 laravel/breezeをインストール
